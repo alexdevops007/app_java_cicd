@@ -20,7 +20,7 @@ pipeline{
             }
         }
 
-        stage('Quality Gate status'){
+        stage('docker build and push to Nexus repo'){
 
             steps{
                 script{
