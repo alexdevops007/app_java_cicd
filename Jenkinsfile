@@ -37,7 +37,6 @@ pipeline{
                 }
             }
         }
-        /*
         stage('Identifying misconfigs using datree in helm charts'){
 
             steps{
@@ -51,7 +50,6 @@ pipeline{
             }
 
         }
-        */
         stage('Pushing the helm charts to Nexus repo'){
             steps{
                 script{
